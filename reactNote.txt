@@ -1,0 +1,43 @@
+   
+
+        REACT -Front End Technology (Framework)
+    -----------------------------------------------
+
+
+            Conmmands
+        ----------------
+    
+    1.create project : npx create-react-app project-name
+    2. to run project : npm start
+    3.to install material ui: npm install @mui/icons-material
+
+            Features
+       -----------------
+    1.Component Based Approach
+    2. JSX (JavaScript XML)
+    3. Virtual DM
+    4. Fast
+    5. Front end Differences
+
+
+    Angular               react                  vue
+------------------------------------------------------------
+1. Framework            Library                Framework
+  -google                -Facebook              -open source
+2. Typescript           JavaScript             JavaScript
+3. Real DOM             Virtual DOM            Virtual DOM
+4. Two way Binding      One way Binding        Two way Binding
+
+6. State: Used to store data, and share it other Component(parent to child)
+    -create state using useState
+     const [state-name,function name to change state value ] = useState(initial-value)
+     -to update state: using state update function where pass the updated value as argument 
+     -to share state from parent to child :usin props
+
+7. Components: 2 types(createm a js file with file name start with capital letter)
+        -class based /stateful Component :
+        -Functional base/stateless Component :
+8. React Hooks(hook is a predifined method)
+    - useState(): to create user defined state in functional Component
+    - useEffect(): allow you to perform the 
+9.Conditional rendering
